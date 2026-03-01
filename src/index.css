@@ -1,0 +1,37 @@
+.listStyle {
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(245, 242, 242);
+}
+
+.listStyle li:hover {
+    color: rgb(10, 10, 10);
+}
+
+.imageClass {
+    width: 25%;
+    height: 25%;
+}
+
+.search-input {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+.search-btn {
+    background-color: #28a745;
+    color: white;
+    border:none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    margin-left: 10px;
+}
+
+.search-btn:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}

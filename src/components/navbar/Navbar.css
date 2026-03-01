@@ -1,0 +1,23 @@
+.linkStyle {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  font-family: Georgia, serif;
+}
+
+.nav-style {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* 'right' is invalid, use flex-end */
+  background-color: rgba(11, 198, 255, 0.5);
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+.ul-style {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  gap: 20px;
+  list-style: none; /* uncomment if you want no bullets */
+}
